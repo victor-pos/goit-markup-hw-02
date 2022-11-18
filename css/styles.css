@@ -41,9 +41,11 @@ address {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.nav-link:focus,
-.nav-link:hover,
-.nav-link:active {
+.links .nav-link:hover,
+.links .nav-link:focus {
+    color: var(--main-btn-color);
+}
+.links .nav-link:active {
     color: var(--main-btn-color);
 }
 .contact-link {
